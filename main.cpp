@@ -90,7 +90,7 @@ int main(int argc, char** argv) {
                 drawContours(frame, contours, (int)i, color, 1, LINE_8, hierarchy, 0);
                 Moments M = moments(approx);
                 Point center(M.m10 / M.m00, M.m01 / M.m00);
-                putText(frame, name, center, FONT_HERSHEY_COMPLEX_SMALL, 0.65, color, 2); // Установка толщины шрифта на 2
+                putText(frame, name, center, FONT_HERSHEY_COMPLEX_SMALL, 0.65, color, 2);
             }
         }
     }
