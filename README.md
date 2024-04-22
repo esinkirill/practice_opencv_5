@@ -8,3 +8,4 @@
 
 ## Шаблоны 
 
+[шаблоны тут](https://github.com/esinkirill/practice_opencv_5/tree/main/card)
